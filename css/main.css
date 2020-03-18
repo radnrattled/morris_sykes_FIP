@@ -363,17 +363,15 @@ line-height: 15px;
 }
 
 .smallbox {
-	margin-bottom: 50px;
-	width: 280px;
-	height: 131px;
-	padding-bottom: 30px;
+	margin-bottom: 10px;
+	width: 100%;
+	padding-bottom: 10px;
 	border-bottom: solid 1px #666;
 }
 
 .largebox {
-	margin-bottom: 20px;
-	width: 280px;
-	height: 213px;
+	margin-bottom: 10px;
+	width: 100%;
 	padding-bottom: 10px;
 	border-bottom: solid 1px #666;
 }
@@ -390,8 +388,51 @@ line-height: 15px;
 	line-height: 20px;
 	color: grey;
 }
+
+.bottleTitles:hover {
+	color: #eee27e;
+	letter-spacing: 2px;
+	font-weight: 1000;
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
 .smallbox, .largebox p {
 	letter-spacing: .5px;
+}
+
+.lightbox {
+  display: none;
+  background-color: rgba(101, 191, 222, 0.8);
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  width: 30vw;
+  height: 100vh;
+}
+
+.close{
+  color: white;
+  display: block;
+  float: right;
+  font-size: 30px;
+
+}
+
+.beer-info {
+	color: #fff;
+	font-size: 24px;
+	text-shadow: 2px 1px black;
+	text-align: center;
+	line-height: 36px;
+	position: absolute;
+	top: 20%;
+	padding: 10%;
+}
+
+.show-lightbox {
+  display: block;
 }
 
 /* Contact Page */

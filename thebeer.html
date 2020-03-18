@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 	<style>
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:900|Roboto+Slab:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 </style>
 	</head>
 <body>
@@ -33,25 +34,19 @@
 </header> <!--end header-->
 <section id="rowcon"><h2 class="hidden">The Beer</h2>
 <div class="columncon">
-	<div class="smallbox"><p><span class="bottleTitles">ABV:</span> 51% <br><br><span class="bottleTitles">IBU:</span> 24 <br><br><span class="bottleTitles">CAL:</span> 150 <br><br><span class="bottleTitles">AVAILABLE:</span> Year Round</p></div>
-	<div class="largebox"><p><span class="bottleTitles">THE ORIGINAL ITALIAN LAGER.</span><br><br> Peroni is the number one lager brand in Italy and has been for over one and a half centuries. This premium, clear, golden-yellow lager is the result of the dedication to brewing of generations of the most qualified braumeisters. </p></div>
-	<div class="largebox"><p><span class="bottleTitles">BREWING</span> <br><br>Brewed using the finest spring barley malts and hops, its taste is slightly bitter. A refreshing smooth lager, Peroni is suitable for all occasions.</p></div>
-	<div class="smallbox"><p><span class="bottleTitles">FOOD PAIRINGS</span><br><br> Pizza, Ribs & Spicy Foods Pepperjack & Queso Lemon Shortbread</p></div>
+	<div class="smallbox"><p><span class="bottleTitles button" data-offset="0">The inner stuff</span> </p></div>
+	<div class="largebox"><p><span class="bottleTitles button" data-offset="1">THE ORIGINAL ITALIAN LAGER.</span></p></div>
+	<div class="largebox"><p><span class="bottleTitles button" data-offset="2">BREWING</span></p></div>
+	<div class="smallbox"><p><span class="bottleTitles button" data-offset="3">FOOD PAIRINGS</span></p></div>
 </div><!--end leftside-->
 <div class="bottle">
 	<img class="animated bounce"src="images/peroniBottle.png" alt="Bottle of Peroni" height="700">
 </div><!--end beer img-->
 <div class="columncon">
-	<div class="smallbox"><p><span class="bottleTitles">BEER FAMILY:</span> Pilsners and Pale Lagers <br><br><span class="bottleTitles">BEER STYLE:</span> International Pale Lager <br><br><span class="bottleTitles">ORIGIN:</span> Roma, Italy</p></div>
-	<div class="largebox"><p><span class="bottleTitles">CITRUS AROMA</span><br><br>
-The citrus aroma is subtle, yet captivating. During production, we use the highest quality hops (Saaz-Saaz and Hallertau Magnum) that give the beer its distinctive yet balanced aroma which is light on the palate.</p></div>
-	<div class="largebox"><p><span class="bottleTitles">CRISP AND REFRESHING TASTE</span><br><br>
-The combination of Nostrano dell’Isola maize, the finest hops and two-row spring-planted barley is the secret to our unique crisp and refreshing taste. Our special maize gives the beer its distinct clarity and light, golden colour reminiscent of prosecco.</p></div>
-	<div class="smallbox"><p><span class="bottleTitles">INGREDIENTS</span><br><br>
-Italian Maize: A blend including Nostrano dell’Isola <br>
-Hops: Saaz-Saaz and Hallertau Magnum <br>
-Barley: Two-row spring barley <br>
-Water: Pure, ‘soft water’, with low carbonates</p></div>
+	<div class="smallbox"><p><span class="bottleTitles button" data-offset="4">Styles</span></p></div>
+	<div class="largebox"><p><span class="bottleTitles button" data-offset="5">CITRUS AROMA</span></p></div>
+	<div class="largebox"><p><span class="bottleTitles button" data-offset="6">CRISP AND REFRESHING TASTE</span></p></div>
+	<div class="smallbox"><p><span class="bottleTitles button" data-offset="7">INGREDIENTS</span></p></div>
 </div><!--end right side-->
 </section><!--end main content-->
 
@@ -75,7 +70,9 @@ Water: Pure, ‘soft water’, with low carbonates</p></div>
 		<p class="copyright">Copyright</p>
 	</div> <!--end footer socials-->
 </footer> <!--end footer-->
-
+<section class="lightbox">
+  <span class="close">X</span>
+  <p class="beer-info"></p></section>
 </div><!--end site container-->
 <script src="js/main.js"></script>	
 </body>
