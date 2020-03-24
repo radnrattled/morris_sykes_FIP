@@ -198,90 +198,19 @@ line-height: 15px;
 
 
 
-#beerTaste 
-{
-	margin-top: 20px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 60px;
+.videoDeco {
+	width: 70%;
+	margin-left: 15%; 
 }
 
-/* left and rights are backwards*/
-
-#rightTaste {
- 	width: 232px;
-	margin-top: 5px
-}
-
-#rightTaste h2 {
-	font-family: 'Playfair Display SC', serif;
-	font-size: 65px;
+.videoDeco h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
 	font-weight: 400;
-	color: salmon;
-	line-height: 100px;
-	-webkit-transition: all 0.4s ease-in;
-	-moz-transition: all 0.4s ease-in;
-	-o-transition: all 0.4s ease-in;
-	transition: all 0.4s ease-in;
-}
-
-
-#rightTaste h2:hover {
-	letter-spacing: 10px;
-}
-
-#rightTaste h2 a {
-	text-decoration: none;
-}
-#leftTaste {
- 	width: 232px;
-	margin-top: 5px
-}
-
-
-#leftTaste h2 {
-	font-family: 'Playfair Display SC', serif;
-	text-align: right;
-	font-size: 65px;
-	font-weight: 400;
-	color: salmon;
-	line-height: 100px;
-	-webkit-transition: all 0.4s ease-in;
-	-moz-transition: all 0.4s ease-in;
-	-o-transition: all 0.4s ease-in;
-	transition: all 0.4s ease-in;
-}
-
-#leftTaste h2:hover {
-	letter-spacing: 10px;
-}
-/*This isn't taking the link decoration off of my text and I'm not sure why*/
-#leftTaste h2 a {
-	text-decoration: none;
-}
-.promoTease {
-	font-family: 'Roboto Slab', serif;
-	display: block;
-	font-size: 40px;
 	color: #333;
-	line-height: 75px;
-}
-
-.promoTease2 {
-	font-family: 'Roboto Slab', serif;
-	display: block;
-	font-size: 30px;
-	color: #333;
-	line-height: 75px;
-}
-
-.beerImg {
-	width: 146px;
-	height: 299px;
-	margin-left: 0;
-	margin-right: 60px;
+	line-height: 70px;
+	letter-spacing: 10px;
+	text-align: center;
 }
 
 .fuelUp {
@@ -301,7 +230,7 @@ line-height: 15px;
 .texton {
   position: absolute;
   top: 65%;
-  left: 35%;
+  left: 30%;
   transform: translate(-50%, -50%);
 }
 
@@ -406,7 +335,7 @@ line-height: 15px;
 
 .lightbox {
   display: none;
-  background-color: rgba(238, 226, 126, 0.9);
+  background-color: rgba(238, 226, 126, 0.8);
   position: absolute;
   top: 18%;
   left: 35%;
@@ -423,10 +352,11 @@ line-height: 15px;
 }
 
 .beer-info {
-	color: #333;
+	font-family: 'Anton', sans-serif;
+	color: #676767;
 	font-size: 24px;
-	font-weight: 1000;
-	text-shadow: 2px 1px white;
+	font-weight: 800;
+	text-shadow: 2px 1px #f1f2f2;
 	text-align: center;
 	line-height: 36px;
 	position: absolute;
