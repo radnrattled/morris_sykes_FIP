@@ -17,14 +17,13 @@ const beerData = [
 Hops: Saaz-Saaz and Hallertau Magnum
 Barley: Two-row spring barley
 Water: Pure, ‘soft water’, with low carbonates`],
-["PLACEHOLDER",'PLACEHOLDER'],
-["PLACEHOLDER",'PLACEHOLDER'],
-["PLACEHOLDER",'PLACEHOLDER'],
-["PLACEHOLDER",'PLACEHOLDER'],
-["PLACEHOLDER",'PLACEHOLDER'],
-["PLACEHOLDER",'PLACEHOLDER'],
-["PLACEHOLDER",'PLACEHOLDER'],
-["PLACEHOLDER",'PLACEHOLDER'],
+["The call",'You have got a full beer and nature calls. Do not refuse the call of nature my friends, take your lemonade with you while your squeeze the lemon.'],
+["Horse",'Our designs mix the high class features of renassance motifs with the cheeky cherub holding a toliet roll reminding you that you can be high class, even in low places! '],
+["The seal",'Coined as the bathroom beer because you should be able to pop the top, while you break the seal'],
+["Refresh",'Our bottle is a breath of fresh air, easy to hold, east to drink and easy to look at. All that matters to us is you feeling that relief.'],
+["Colours",'Why yellow? Do you even have to ask? Our colours are bright and playful, just like our beer and just like you!'],
+["Freshener",'At the bottom of our journey you will find the life saving one shot air freshener. Spray when finished allowing you and the person after you to breathe deeper and drink longer!'],
+
 
 ];
 
