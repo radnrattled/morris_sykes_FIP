@@ -10,7 +10,7 @@ div,p,body,header,footer,section,article,nav
 
 body
 {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	letter-spacing: 1px;
 	margin: 0 auto;
@@ -34,7 +34,7 @@ a:hover, a:active
 /* Main header */
 #topBar
 {
-	background-color: #DDD;
+	background-color: #60bddd;
 	height: 20px;
 }
 
@@ -90,7 +90,7 @@ a:hover, a:active
 }
 
 #mainNav ul li a:hover {
-color: #333;
+color: #fff568;
 	padding: 5px;
 
 }
@@ -161,7 +161,7 @@ color: #333;
 }
 
 #aboutalcohol {
-font-family: Helvetica, Arial, sans-serif;
+font-family: 'Montserrat', sans-serif;
 display: block;
 font-size: 14px;
 color: #333;
@@ -183,56 +183,30 @@ line-height: 15px;
 }
 /* Index */
 
+
 #hero 
 {
-	width: 70%;
+	width: 95%;
 	margin-top: 40px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
 	padding-left: 30px;
-	margin-left: 10%;
-	display: flex;
-	flex-direction: row;
-  	justify-content: center;
 }
-
-
 
 .videoDeco {
 	width: 70%;
 	margin-left: 15%; 
 }
 
-.videoDeco h2 {
+#video h2 {
 	font-family: 'Lobster', cursive;
 	font-size: 50px;
 	font-weight: 400;
 	color: #333;
-	line-height: 70px;
 	letter-spacing: 10px;
 	text-align: center;
 }
 
-.fuelUp {
-	font-family: 'Lobster', cursive;
-	font-size: 50px;
-	font-weight: 400;
-	color: #333;
-	line-height: 70px;
-	letter-spacing: 10px;
-}
-
-.cursive {
-	font-weight: 600;
-	font-size: 70px;
-	color: #666;
-}
-.texton {
-  position: absolute;
-  top: 65%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-}
 
  .imgOn {
  position: absolute;
@@ -240,29 +214,32 @@ line-height: 15px;
   left: 390px;
   transform: translate(-50%, -50%);
  }
+
 /* History */
 
-#timeLine, #timeLine1, #timeLine2, #timeLine3
-{
+.timeLine {
 	margin-top: 40px;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
-  	justify-content: space-between;
+  	justify-content: space-between; 
 	border-bottom: solid 1px #DDD;
 }
 
 .promoText {
-	width: 500px;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	width: 50%;
 	font-weight: 200;
 	letter-spacing: .25px;
 	line-height: 16px;
 }
 
+.promoImg {
+	width: 90%;
+
+}
+
 .timelineTitle{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	font-weight: 800;
 	letter-spacing: 10px;
@@ -279,36 +256,32 @@ line-height: 15px;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: column;
-  	justify-content: space-between;
+	justify-content: space-between;
+  	width: 50%;
 
 }
+
 
 #rowcon {
 	margin-top: 40px;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
-  	justify-content: space-around;
+  	
 }
 
-.smallbox {
+.box {
 	margin-bottom: 10px;
 	width: 100%;
 	padding-bottom: 10px;
 	border-bottom: solid 1px #666;
 }
 
-.largebox {
-	margin-bottom: 10px;
-	width: 100%;
-	padding-bottom: 10px;
-	border-bottom: solid 1px #666;
-}
 
 .bottle {
-	justify-content: center;
-	
-	
+	margin-left: 30%;
+	width: 30%;
+		
 }
 
 .bottleTitles {
@@ -329,7 +302,7 @@ line-height: 15px;
 	-o-transition: all 0.4s ease-in;
 	transition: all 0.4s ease-in;
 }
-.smallbox, .largebox p {
+.box p {
 	letter-spacing: .5px;
 }
 
@@ -338,9 +311,9 @@ line-height: 15px;
   background-color: rgba(238, 226, 126, 0.8);
   position: absolute;
   top: 18%;
-  left: 35%;
+  left: 33%;
   width: 30vw;
-  height: 100vh;
+  height: 55vh;
 }
 
 .close{
@@ -352,7 +325,7 @@ line-height: 15px;
 }
 
 .beer-info {
-	font-family: 'Anton', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #676767;
 	font-size: 24px;
 	font-weight: 800;
@@ -360,7 +333,7 @@ line-height: 15px;
 	text-align: center;
 	line-height: 36px;
 	position: absolute;
-	top: 20%;
+	top: 5%;
 	padding: 10%;
 }
 
@@ -372,42 +345,49 @@ line-height: 15px;
 
 #contactcon {
 
-	margin-top: 40px;
+	margin-top: 1%;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
-  	justify-content: space-between;
+  	flex-shrink: 1 0 0;
 	border-bottom: solid 1px #DDD;
 }
 
+
 #contactform {
  background-color: #DDD;
- padding: 10px;
- margin-top: 30px;
- margin-right: 30px
+ width: 100%;
+ padding: 2%;
+ margin-top: 1%;
 
 }
-
-.contact {
-	width: 500px;
+#contactform textarea {
+	width: 80%;
 	height: 150px;
 }
 
-#terms {
-	font-family: Helvetica, Arial, sans-serif;
-	color: grey;
-	width: 300px;
-	margin-top: 30px;
+#contactPromo {
+margin-top: 1%;
+width: 90%;
+flex-shrink: 1;
 }
 
 #SocialLinks {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-left: 50px;
-	width: 100px;
+	width: 90%;
 	padding-bottom: 10px;
 }
 
+#SocialLinks h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 5px;
+	line-height: 100px;
+	color: grey;
+}
 
 /* animation */
 
@@ -471,29 +451,125 @@ to customize my bounce*/
 /* Breaking Points*/
 
 @media screen and (max-width: 1400px){
-#mainNav ul li a {
-	color: salmon;
+#mainNav ul li a {color: salmon;}
+
+	.lightbox {
+  	left: 33%;
+  	width: 30vw;
+  	height: 50vh;}
+
+	.beer-info {
+	top: 5%;
+	font-size: 22px;
+	line-height: 30px;}
 }
-	}
 
 @media screen and (max-width: 1155px){
-	#mainNav ul li a {
-	color: cyan;
+	#mainNav ul li a {color: cyan;}
+
+	.bottle {
+	margin-left: 10%;
+	width: 60%;
+	opacity: 20%;}
+
+	.bottleTitles{
+	position: absolute;
+  	transform: translate(-50%, -50%);}
+
+	.box {
+	margin-bottom: 10px;
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: solid 0px #666;}
+
+	#contactcon {flex-wrap: wrap;}
+
+	.promoText {width: 100%;}
+
+	.box1 {margin-left: 10%;}
+
+	.lightbox {
+  left: 33%;
+  width: 33vw;
+  height: 60vh;}
+
+	.beer-info {
+	font-size: 22px;
+	line-height: 30px;
+	top: 5%;
+	padding: 10%;}
+
 }
-	}
 
 @media screen and (max-width: 900px){
+ 	body {font-size: 14px; line-height: 14px;}
 	#mainNav ul li a {
 	color: magenta;
 	}
+	#SocialLinks h2 {
+		line-height: 28px;
+		letter-spacing: 1px;
+	}
+	.promoImg {
+	width: 100%;
+	margin-top: 10%;}
+
+	.box1 {margin-left: 20%;}
+
+	.lightbox {
+  	left: 30%;
+  	width: 50vw;
+  	height: 45vh;}
+
+	.beer-info {
+	font-size: 18px;
+	line-height: 24px;
+	top: 5%;
+	padding: 10%;}
+
+	#video h2 {font-size: 36px;}
+
+}
 
 @media screen and (max-width: 600px){
-	#mainNav ul li a {
-	color: lime;
-	}
+	#mainNav ul li a {color: lime;}
 
-@media screen and (max-width: 300px){
-	#mainNav ul li a {
-	color: red;
+	.timeLine{ flex-wrap: wrap;}
+
+	.bottleTitles {font-size: 14px; }
+
+	.lightbox {
+	top:25%; 
+  	left: 25%;
+  	width: 50vw;
+  	height: 33vh;}
+
+	.beer-info {
+	font-size: 16px;
+	line-height: 18px;
+	top: 0%;
+	padding: 10%;}
+
+	#video h2 {font-size: 18px;}
+
 }
-	}
+
+@media screen and (max-width: 375px){
+	#mainNav ul li a {color: red;}
+
+	body {font-size: 12px;line-height: 12px;}
+
+	.box1 {margin-left: 30%;}
+
+	.lightbox {
+	top:25%; 
+  	left: 25%;
+  	width: 50vw;
+  	height: 30vh;}
+
+	.beer-info {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10%;}
+
+}

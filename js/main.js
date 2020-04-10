@@ -1,10 +1,11 @@
 (() => {
 
-let infoButtons = document.querySelectorAll('.button')
+let infoButtons = document.querySelectorAll(".button")
   lightBox = document.querySelector(".lightbox")
-  closeLightbox = lightBox.querySelector('.close')
+  closeLightbox = lightBox.querySelector(".close")
   Desc = document.querySelector(".beer-info")
 
+  
 const beerData = [
 ["Info",`ABV: 51% IBU: 24 CAL: 150 AVAILABLE: Year Round`],
 ["Lager",`Peroni is the number one lager brand in Italy and has been for over one and a half centuries. This premium, clear, golden-yellow lager is the result of the dedication to brewing of generations of the most qualified braumeisters.`],
@@ -27,6 +28,8 @@ Water: Pure, ‘soft water’, with low carbonates`],
 
 ];
 
+
+
 function showLightbox() {
   //pop open lightbox and show content
   //debugger
@@ -41,4 +44,6 @@ function hideLightbox(){
 
 infoButtons.forEach(button => button.addEventListener("click", showLightbox));
 closeLightbox.addEventListener("click", hideLightbox)
+
+
 })();
