@@ -6,8 +6,7 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 	<style>
-	@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:900|Roboto+Slab:100&display=swap');
-	@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Playfair+Display+SC:wght@900&display=swap');
 	</style>
 	</head>
 <body>
@@ -33,12 +32,15 @@
 	</div> <!--end socials-->
 </header> <!--end header-->
 <section><h2 class="hidden">Hero Image</h2></section>
-<div id="hero"><img src="images/heroimg.jpg" alt="Peroni Promo Shot">
-<h2 class="fuelUp texton"><span class="cursive">Fuel up,</span> <br>while you <span class="cursive">empty</span><br> the tank!</h2></div>
+<div >
+<picture>
+	<source srcset="images/heroimg3.jpg" media="(max-width: 600px)"> <!--at this max width is where the image will change-->
+		<img id="hero" src="images/heroimg.jpg" alt="Alternate Hero Img">
+	</picture>
 <!--end hero-->
 <section><h2 class="hidden">Promo Video</h2></section>
-<div class="videoDeco">
-	<img src="images/videoBorder.png">
+<div id="video">
+	<img class="videoDeco" src="images/videoBorder.png">
 	<video></video>
 	<h2>Promo Text</h2>
 </div>
